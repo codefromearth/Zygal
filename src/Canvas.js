@@ -36,11 +36,11 @@ const Canvas = () => {
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
 
-    // Set up canvas size
+    // Set  canvas size
     canvas.width = 16;
     canvas.height = 34;
 
-    // Draw a character in the center
+    //  character in the center
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
     const char = 'A';
